@@ -1,0 +1,15 @@
+::selection {
+  background: rgba(106, 82, 133, 0.25) !important;
+  color: inherit !important;
+}
+
+::-moz-selection {
+  background: rgba(106, 82, 133, 0.25) !important;
+  color: inherit !important;
+}
+
+body,
+html,
+#outer {
+  background: transparent;
+}
