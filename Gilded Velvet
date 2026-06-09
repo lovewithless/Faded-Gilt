@@ -5070,3 +5070,18 @@ body #main .work.navigation li.chapter .secondary input[type="submit"]:hover {
   background: transparent !important;
   text-decoration: none !important;
 }
+
+html body #main form[action*="bookmark"] input[type="checkbox"],
+html body #main fieldset input[type="checkbox"] {
+  accent-color: #E3C27B !important;
+  -webkit-appearance: checkbox !important;
+  appearance: checkbox !important;
+  opacity: 1 !important;
+}
+
+html body #main form[action*="bookmark"] label,
+html body #main form[action*="bookmark"] dd label,
+html body #main fieldset label {
+  color: #E0D6C9 !important;
+  -webkit-text-fill-color: #E0D6C9 !important;
+}
